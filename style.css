@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+p {
+    font-weight: 1000;
+    font-size: 4rem;
+    color: blue;
+}
+
+.container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container > div {
+    border: 2px solid red;
+    padding: 3rem;
+    width: 40vw;
+}
+
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b > div {
+    border: 2px solid green;
+    padding: 2rem;
+}
+
+.b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
